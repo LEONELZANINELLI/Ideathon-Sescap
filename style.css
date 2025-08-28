@@ -1,0 +1,35 @@
+ body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
+        }
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .tool-card {
+            transition: all 0.3s ease;
+        }
+        .persona-card {
+            transition: all 0.3s ease;
+        }
+        .persona-card:hover {
+            transform: translateY(-5px);
+        }
+        .price-card {
+            transition: all 0.3s ease;
+        }
+        .price-card:hover {
+            transform: scale(1.03);
+        }
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
